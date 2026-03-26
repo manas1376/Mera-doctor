@@ -51,7 +51,7 @@ const AadhaarPage = () => {
         <div className="w-20 h-20 mx-auto rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 flex items-center justify-center mb-5 shadow-2xl">
           <Shield size={36} className="text-white" />
         </div>
-        <h1 className="font-display font-bold text-3xl text-white mb-2 tracking-tight">SwasthyaAI</h1>
+        <h1 className="font-display font-bold text-3xl text-white mb-2 tracking-tight">Mera DoctorAI</h1>
         <p className="text-primary-200 text-sm">Multilingual AI Health Triage for Bharat</p>
       </div>
 

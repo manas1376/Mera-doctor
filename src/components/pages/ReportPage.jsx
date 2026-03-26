@@ -37,7 +37,7 @@ const ReportPage = () => {
       doc.setTextColor(255, 255, 255);
       doc.setFontSize(20);
       doc.setFont('helvetica', 'bold');
-      doc.text('SwasthyaAI', 20, 15);
+      doc.text('Mera DoctorAI', 20, 15);
       doc.setFontSize(11);
       doc.setFont('helvetica', 'normal');
       doc.text('Medical Summary Report', 20, 24);
@@ -110,7 +110,7 @@ const ReportPage = () => {
       doc.setFontSize(9);
       doc.setTextColor(100);
       doc.text('This report is AI-generated and should be reviewed by a qualified healthcare professional.', 20, 285);
-      doc.text('SwasthyaAI – Powered by Anthropic AI | UIDAI Verified', 20, 291);
+      doc.text('Mera DoctorAI– Powered by Anthropic AI | UIDAI Verified', 20, 291);
 
       doc.save(`SwasthyaAI_Report_${patientId || 'patient'}.pdf`);
     } catch (e) {
@@ -244,7 +244,7 @@ const ReportPage = () => {
 
             {/* Disclaimer */}
             <div className="bg-amber-50 border border-amber-100 rounded-xl p-3 text-xs text-amber-700">
-              ⚠️ This AI-generated report is for triage guidance only. Always consult a qualified healthcare professional for medical decisions.
+             
             </div>
           </div>
         </div>
