@@ -11,7 +11,7 @@ const timeSlots = [
 ];
 
 const doctors = [
-  { id: 1, name: 'Dr. Priya Sharma', spec: 'General Physician', rating: 4.8, exp: '12 yrs', avatar: '👩‍⚕️' },
+  { id: 1, name: 'Dr. Ritika Dangi', spec: 'General Physician', rating: 4.8, exp: '12 yrs', avatar: '👩‍⚕️' },
   { id: 2, name: 'Dr. Rajesh Kumar', spec: 'Internal Medicine', rating: 4.7, exp: '9 yrs', avatar: '👨‍⚕️' },
   { id: 3, name: 'Dr. Anita Desai', spec: 'Family Medicine', rating: 4.9, exp: '15 yrs', avatar: '👩‍⚕️' },
 ];
